@@ -1,52 +1,17 @@
-\# CULT Tor Scraper
+Tor Scraper, Tor ağı (The Onion Router) üzerinden yayın yapan .onion servisleri ve açık internet sitelerine anonim şekilde erişerek verileri otomatik olarak toplayan ve işleyen yazılımlardır.
 
+CULT, Go (Golang) dili ile geliştirilmiş, tüm ağ trafiğini Tor SOCKS5 proxy üzerinden yönlendiren, hedef web sitelerine kullanıcı IP adresini ifşa etmeden bağlanabilen OSINT tabanlı ve CTI odaklı bir Tor Scraper aracıdır.
 
+Araç, hedef web sitesinin dinamik yapısını headless Chromium ortamında yükleyerek sayfanın güncel durumunu ekran görüntüsü (screenshot) olarak kaydeder. CULT, HTML analizi yapmadan, yalnızca görsel kanıt toplamaya odaklanarak low-interaction reconnaissance yaklaşımıyla çalışır.
+Bu yönüyle CULT, Dark Web servislerinin ön keşfi, görsel durum tespiti ve zaman damgalı kanıt üretimi amacıyla kullanılmaktadır.
 
-CULT, Go (Golang) dili ile geliştirilmiş, Tor ağı üzerinden çalışan,
+KAYNAK KODU KOPYALAYIN VE DİZİNE GİDİN
+```bash
+git clone https://github.com/edanurklc/cult.git
+cd cult
+```
 
-screenshot tabanlı bir OSINT / CTI aracıdır.
-
-
-
-\## Özellikler
-
-\- Tor SOCKS5 proxy desteği (127.0.0.1:9150)
-
-\- Headless Chromium (chromedp)
-
-\- .onion ve clearnet destekli
-
-\- Tarih ve saat bazlı screenshot alma
-
-\- Minimum log, maksimum anonimlik
-
-
-
-\## Kullanım Alanları
-
-\- Dark Web OSINT
-
-\- CTI ön keşif
-
-\- Görsel kanıt toplama
-
-\- Low-interaction reconnaissance
-
-
-
-\## Gereksinimler
-
-\- Tor Browser / Tor Service
-
-\- Go 1.20+
-
-\- Chromium bağımlılıkları
-
-
-
-\## Uyarı
-
-Bu araç yalnızca \*\*eğitim ve savunma amaçlıdır\*\*.
-
-
-
+TOOL'U ÇALIŞTIRIN
+```bash
+go run cult.go https://example.onion
+```
