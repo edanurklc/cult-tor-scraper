@@ -2,7 +2,7 @@ Tor Scraper, Tor ağı (The Onion Router) üzerinden yayın yapan .onion servisl
 
 CULT, Go (Golang) dili ile geliştirilmiş, tüm ağ trafiğini Tor SOCKS5 proxy üzerinden yönlendiren, hedef web sitelerine kullanıcı IP adresini ifşa etmeden bağlanabilen OSINT tabanlı ve CTI odaklı bir Tor Scraper aracıdır.
 
-Araç, hedef web sitesinin dinamik yapısını headless Chromium ortamında yükleyerek sayfanın güncel durumunu ekran görüntüsü (screenshot) olarak kaydeder. CULT, HTML analizi yapmadan, yalnızca görsel kanıt toplamaya odaklanarak low-interaction reconnaissance yaklaşımıyla çalışır.
+Araç, hedef web sitesinin dinamik yapısını headless Chromium ortamında yükleyerek sayfanın güncel durumunu ekran görüntüsü (screenshot) ve HTML olarak kaydeder. CULT, görsel kanıtve HTML verisi toplamaya odaklanarak low-interaction reconnaissance yaklaşımıyla çalışır.
 Bu yönüyle CULT, Dark Web servislerinin ön keşfi, görsel durum tespiti ve zaman damgalı kanıt üretimi amacıyla kullanılmaktadır.
 
 KAYNAK KODU KOPYALAYIN VE DİZİNE GİDİN
