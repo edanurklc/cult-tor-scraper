@@ -7,7 +7,7 @@ Bu yönüyle CULT, Dark Web servislerinin ön keşfi, görsel durum tespiti ve z
 
 KAYNAK KODU KOPYALAYIN VE DİZİNE GİDİN
 ```bash
-git clone https://github.com/edanurklc/cult.git
+git clone https://github.com/edanurklc/cult-tor-scraper.git
 cd cult
 ```
 
