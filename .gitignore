@@ -1,0 +1,8 @@
+# Ignore screenshots folder
+screenshots/
+
+# Ignore html folder
+html/
+
+# Ignore log file
+log_kayıtları.log
