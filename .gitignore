@@ -1,8 +1,11 @@
-# Ignore screenshots folder
+# Log dosyaları
+*.log
+
+# Screenshot klasörü
 screenshots/
 
-# Ignore html folder
-html/
+# HTML çıktıları
+*.html
 
-# Ignore log file
-log_kayıtları.log
+# Environment / gizli bilgiler
+.env
